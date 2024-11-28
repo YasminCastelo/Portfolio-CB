@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #550a0ae8;
@@ -11,13 +17,24 @@ body {
 
 /*Menu de Navegação*/
 header {
-    padding-top: 80px:
+    padding: 50px 5%;
     text-align: center;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 #cabeçalho h1 {
-    margin: 10px 0;
-    font-size: 2rem;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+
 }
 
 nav {
@@ -53,7 +70,7 @@ nav ul li a:hover {
  color: #ffcc00;  
 }
 
-.main-content {
+.minha-secao {
  background-color: #ffffff;
  border: 1px solid #ccc;
  height: 65vh;
@@ -75,7 +92,7 @@ nav ul li a:hover {
 }
 
 
-.content{
+.meu-texto {
   border-bottom: 2px solid rgba(122, 122, 122, 0.301);
   padding-bottom: 20px;
   margin: 0 auto;

@@ -12,13 +12,13 @@ body {
 
 /*Menu de Navegação*/
 header {
-    padding-top: 120px;
+    padding-top: 80px:
     text-align: center;
 }
 
 #cabeçalho h1 {
     margin: 10px 0;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 nav {
